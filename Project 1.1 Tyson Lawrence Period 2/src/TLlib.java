@@ -1,6 +1,6 @@
 
 public class TLlib {
-
+//Tyson Lawrence Period 2 Project 1.1 MethodMadness
 	public static void main(String[] args) {
       multiplicationTable (3, 30);
 	}
