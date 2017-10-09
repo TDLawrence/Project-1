@@ -1,9 +1,7 @@
 
 public class TLlib {
 //Tyson Lawrence Period 2 Project 1.1 MethodMadness october 5
-	public static void main(String[] args) {
-      multiplicationTable (3,30); Powers (2,4);
-	}
+	
 
     public static void multiplicationTable (int base, int range)
     {int n=0;
@@ -21,16 +19,13 @@ public class TLlib {
     
       
      }
-     public static string DateStr (String str)
-     {int month>0;
-      int month<=12;
-      int day>0;
-      int day<=31;
-      int year>0;
-     String str=(month+"/"+date+"/"+year);
-      String month=str.substring(0,2);
-      String date=str.substring(3,5);
-      String year=str.substring(6);
-      return day+"-"+month+"-"+year; 
-     }
+   
+     
+    public static void dateStr (String full)
+     {
+      String months=full.substring(0,2);
+      String date=full.substring(3,4);
+      String years=full.substring(5);
+      System.out.println(date+"-"+months+"-"+years);} 
+     
 }
