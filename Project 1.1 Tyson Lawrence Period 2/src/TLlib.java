@@ -2,6 +2,9 @@
 public class TLlib {
 //Tyson Lawrence Period 2 Project 1.1 MethodMadness october 5
 	
+	public static void main (String [] args){
+	 multiplicationTable (3,30); dateStr ("11/7/09");Powers(2,10); 
+	}
 
     public static void multiplicationTable (int base, int range)
     {int n=0;
