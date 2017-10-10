@@ -1,6 +1,10 @@
-//fjruiejhfo
+
 public class AClib {
+//Amy Chen Period 2 Method Madness
 	public static void main (String[] args) {
+		System.out.println(sumUpTo(5));
+		System.out.println(isPalindrome("abcd"));
+		System.out.println(isFibonacci(2));
 	}
 	public static int sumUpTo (int z) {
 		int sum = 0;
